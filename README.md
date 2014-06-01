@@ -27,13 +27,13 @@ The Date and Time Widget enables you to add a widget to your sidebar for display
 
 ## Screenshots ##
 
-###1. Date and Tiem Settings###
+###1. Date and Time Settings###
 ![Date and Time Settings](http://donnapeplinskie.com/wp-content/uploads/2014/02/Date_and_Time_Widget_Settings.png)
 ###2. Date and Time in the Sidebar###
 ![Date and Time in the Sidebar](http://donnapeplinskie.com/wp-content/uploads/2014/02/Date_and_Time_Widget.png)
 
 ## About Me ##
-I'm a front-end web developer for [Rise Vision](http://www.risevision.com). I build WordPress plugins and blog about techy stuff over at [http://donnapeplinskie.com](http://donnapeplinskie.com) in my spare time.
+I'm a front-end web developer for [Rise Vision](http://www.risevision.com). I build WordPress plugins and blog about techy stuff on my [blog](http://donnapeplinskie.com) in my free time.
 
 ## Changelog ##
 
