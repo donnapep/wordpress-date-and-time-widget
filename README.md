@@ -4,8 +4,8 @@
 **Author URI:** http://donnapeplinskie.com  
 **Plugin URI:** http://donnapeplinskie.com/wordpress-date-and-time-widget/  
 **Requires at least:** 3.5  
-**Tested up to:** 3.8  
-**Stable tag:** 1.0.0  
+**Tested up to:** 3.9.1  
+**Stable tag:** 1.1.0 
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -33,9 +33,17 @@ The Date and Time Widget enables you to add a widget to your sidebar for display
 ![Date and Time in the Sidebar](http://donnapeplinskie.com/wp-content/uploads/2014/02/Date_and_Time_Widget.png)
 
 ## About Me ##
-I'm a front-end web developer for [Rise Vision](http://www.risevision.com). I build WordPress plugins and blog about techy stuff on my [blog](http://donnapeplinskie.com) in my free time.
+* I’m a front-end web developer with a fondness for WordPress. I blog about web development at [donnapeplinskie.com](http://donnapeplinskie.com/).
+* I’m a developer advocate for [Rise Vision](http://risevision.com/).
+* I’m author of the [WordPress Book Review Plugin](http://wordpress.org/plugins/book-review/) and [WordPress Date and Time Widget](http://wordpress.org/plugins/date-and-time-widget/).
+* I’m founder and contributor of the [Book Wookie](http://bookwookie.ca) book blog.
 
 ## Changelog ##
 
-### 1.0 ###
+### 1.1.0 ###
+* Added .pot file.
+* Refactored codebase.
+* Fixed issue with duplicate color pickers showing when widget first added to sidebar.
+
+### 1.0.0 ###
 * Initial release.
