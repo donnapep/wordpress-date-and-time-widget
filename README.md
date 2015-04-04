@@ -1,6 +1,6 @@
- # WordPress Date and Time Widget #
+# WordPress Date and Time Widget #
  
- The WordPress Date and Time Widget displays the local date and/or time.
+The WordPress Date and Time Widget displays the local date and/or time.
 
 ## Description ##
 The Date and Time Widget enables you to add a widget to your sidebar for displaying the local date and/or time.
@@ -26,9 +26,9 @@ OR
 
 ## Screenshots ##
 
-###1. Date and Time Settings###
+###Date and Time Settings###
 ![Date and Time Settings](http://donnapeplinskie.com/wp-content/uploads/2014/02/Date_and_Time_Widget_Settings.png)
-###2. Date and Time in the Sidebar###
+###Date and Time in the Sidebar###
 ![Date and Time in the Sidebar](http://donnapeplinskie.com/wp-content/uploads/2014/02/Date_and_Time_Widget.png)
 
 ## About Me ##
