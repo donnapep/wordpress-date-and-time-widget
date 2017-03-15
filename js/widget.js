@@ -6,8 +6,10 @@ function update(widget_id, time_format, date_format) {
   var seconds = now.getSeconds();
   var months = new Array("January", "February", "March", "April", "May", "June",
     "July", "August", "September", "October", "November", "December");
+  var weekdays = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
   var $date = jQuery("#" + widget_id + " .date");
   var $time = jQuery("#" + widget_id + " .time");
+  
 
   // Date
   if (date_format != "none") {
@@ -15,6 +17,7 @@ function update(widget_id, time_format, date_format) {
     var year = currentTime.getFullYear();
     var month = currentTime.getMonth();
     var day = currentTime.getDate();
+    var weekday = currentTime.getDay();
 
     if (date_format == "long") {
       $date.text(months[month] + " " + day + ", " + year);
@@ -27,6 +30,12 @@ function update(widget_id, time_format, date_format) {
     }
     else if (date_format == "european") {
       $date.text(day + "/" + (month + 1) + "/" + year);
+    }
+    else if (date_format == "full") {
+	   $date.text(weekdays[weekday] + " " + day + " " + months[month] + " " + year);
+	  }
+	  else if (date_format == "longw") {
+      $date.text(weekdays[weekday] + " " + months[month] + " " + day + ", " + year);
     }
   }
 
