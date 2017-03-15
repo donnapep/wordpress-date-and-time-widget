@@ -301,7 +301,7 @@ class Date_Time extends WP_Widget {
       "long" => date( "F j, Y", current_time( 'timestamp', 0 ) ),
    // Extra date display options
       "longw" => date( "l F j, Y", current_time( 'timestamp', 0 ) ),
-      "full"=> date("l j F Y", current_time( 'timestamp', 0 ) ),
+      "full" => date("l j F Y", current_time( 'timestamp', 0 ) ),
     );
 
     foreach( $formats as $key => $value ) {
