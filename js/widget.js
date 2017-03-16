@@ -30,25 +30,25 @@ function update(widget_id, time_format, date_format) {
     else if (date_format == "european") {
       $date.text(day + "/" + (month + 1) + "/" + year);
     }
-	else if (date_format == "full") {
+    else if (date_format == "full") {
 	   $date.text(weekdays[weekday] + " " + day + " " + months[month] + " " + year);
-	}
-	else if (date_format == "longw") {
+    }
+    else if (date_format == "longw") {
       $date.text(weekdays[weekday] + " " + months[month] + " " + day + ", " + year);
     }
-	 else if (date_format == "mediumny") {
+    else if (date_format == "mediumny") {
       $date.text(months[month].substring(0, 3) + " " + day);
     }
-	  if (date_format == "longny") {
+    else if (date_format == "longny") {
       $date.text(months[month] + " " + day);
     }
-	else if (date_format == "fullny") {
+    else if (date_format == "fullny") {
 	   $date.text(weekdays[weekday] + " " + day + " " + months[month]);
-	}
-	else if (date_format == "longwny") {
+    }
+    else if (date_format == "longwny") {
       $date.text(weekdays[weekday] + " " + months[month] + " " + day);
     }
-	else if (date_format == "longr") {
+    else if (date_format == "longr") {
       $date.text(day + ", " + months[month] + " " + year);
     }
     else if (date_format == "mediumr") {
