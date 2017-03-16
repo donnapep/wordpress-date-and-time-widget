@@ -295,18 +295,18 @@ class Date_Time extends WP_Widget {
   public function render_date_format( $instance ) {
     $formats = array(
       "none" => "None",
-	  "mediumny" => date( "M j", current_time( 'timestamp', 0 ) ),
-	  "longny" => date( "F j", current_time( 'timestamp', 0 ) ),
+      "mediumny" => date( "M j", current_time( 'timestamp', 0 ) ),
+      "longny" => date( "F j", current_time( 'timestamp', 0 ) ),
       "short" => date( "n/j/Y", current_time( 'timestamp', 0 ) ),
       "european" => date( "j/n/Y", current_time( 'timestamp', 0 ) ),
       "medium" => date( "M j Y", current_time( 'timestamp', 0 ) ),
       "long" => date( "F j, Y", current_time( 'timestamp', 0 ) ),
-	  "mediumr" => date( "j M Y", current_time( 'timestamp', 0 ) ),
+      "mediumr" => date( "j M Y", current_time( 'timestamp', 0 ) ),
       "longr" => date( "j, F Y", current_time( 'timestamp', 0 ) ),
-	  "longwny" => date( "l F j", current_time( 'timestamp', 0 ) ),
-	  "fullny"=> date("l j F", current_time( 'timestamp', 0 ) ),
+      "longwny" => date( "l F j", current_time( 'timestamp', 0 ) ),
+      "fullny"=> date("l j F", current_time( 'timestamp', 0 ) ),
       "longw" => date( "l F j, Y", current_time( 'timestamp', 0 ) ),
-	  "full"=> date("l j F Y", current_time( 'timestamp', 0 ) ),
+      "full"=> date("l j F Y", current_time( 'timestamp', 0 ) ),
     );
 
     foreach( $formats as $key => $value ) {
