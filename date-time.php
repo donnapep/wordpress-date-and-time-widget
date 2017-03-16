@@ -295,10 +295,18 @@ class Date_Time extends WP_Widget {
   public function render_date_format( $instance ) {
     $formats = array(
       "none" => "None",
+      "mediumny" => date( "M j", current_time( 'timestamp', 0 ) ),
+      "longny" => date( "F j", current_time( 'timestamp', 0 ) ),
       "short" => date( "n/j/Y", current_time( 'timestamp', 0 ) ),
       "european" => date( "j/n/Y", current_time( 'timestamp', 0 ) ),
       "medium" => date( "M j Y", current_time( 'timestamp', 0 ) ),
       "long" => date( "F j, Y", current_time( 'timestamp', 0 ) ),
+      "mediumr" => date( "j M Y", current_time( 'timestamp', 0 ) ),
+      "longr" => date( "j, F Y", current_time( 'timestamp', 0 ) ),
+      "longwny" => date( "l F j", current_time( 'timestamp', 0 ) ),
+      "fullny"=> date("l j F", current_time( 'timestamp', 0 ) ),
+      "longw" => date( "l F j, Y", current_time( 'timestamp', 0 ) ),
+      "full"=> date("l j F Y", current_time( 'timestamp', 0 ) ),
     );
 
     foreach( $formats as $key => $value ) {
@@ -321,6 +329,7 @@ class Date_Time extends WP_Widget {
       "Courier New, Courier New, Courier, monospace" => "Courier New",
       "Georgia, Georgia, serif" => "Georgia",
       "Lucida Sans Unicode, Lucida Grande, sans-serif" => "Lucida Sans Unicode",
+	  "Open Sans, sans-serif" => "Open Sans",
       "Tahoma, Geneva, sans-serif" => "Tahoma",
       "Times New Roman, Times, serif" => "Times New Roman",
       "Trebuchet MS, Helvetica, sans-serif" => "Trebuchet MS",
@@ -371,3 +380,4 @@ class Date_Time extends WP_Widget {
 
 add_action( 'widgets_init', create_function( '',
   'register_widget("Date_Time");' ) );
+
