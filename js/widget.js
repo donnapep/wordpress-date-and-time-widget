@@ -16,7 +16,7 @@ function update(widget_id, time_format, date_format) {
     var year = currentTime.getFullYear();
     var month = currentTime.getMonth();
     var day = currentTime.getDate();
-	var weekday = currentTime.getDay();
+    var weekday = currentTime.getDay();
 
     if (date_format == "long") {
       $date.text(months[month] + " " + day + ", " + year);
